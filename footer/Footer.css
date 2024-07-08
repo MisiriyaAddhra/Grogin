@@ -1,0 +1,319 @@
+.footer-container {
+    background-color: #F3F4F6;
+    padding: 40px 150px;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #6B7280;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.newsletter-left {
+    width: 35%;
+}
+
+.letter-h3 {
+    font-size: 20px;
+    Line-height: 24.2px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.letter-p,
+.agreement,
+.help,
+.time,
+.order,
+.link,
+.play,
+.copy,
+.policy-link {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.51px;
+    letter-spacing: -0.32px;
+    color: #6B7280;
+}
+
+.newsletter-right {
+    width: 40%;
+}
+
+.subscribe {
+    display: flex;
+}
+
+.subscribe {
+    width: 60%;
+    height: 7vh;
+    border-radius: 15px 0px 0px 15px;
+    padding: 15px;
+    border: 2px solid #D1D5DB;
+    margin-bottom: 10px;
+}
+
+form button {
+    border-radius: 0px 15px 15px 0px;
+    border: 1px solid #634C9F;
+    background: #634C9F;
+    color: #fff;
+    width: 15%;
+    height: 7vh;
+}
+
+.popup-message {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    background-color: #634C9F;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.tick-mark {
+    margin-right: 10px;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 2% 6%;
+    border-radius: 50%;
+}
+
+.form-subscribe {
+    display: flex;
+}
+
+
+.footer-middle {
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-between;
+    border-bottom: 1px solid #6B7280;
+    padding-bottom: 30px;
+}
+
+.footer-bottom {
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-between;
+}
+
+.footer-middle-left {
+    width: 20%;
+
+}
+
+.column,
+.column-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.call,
+.mail {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.phn-icon,
+.mail-icon {
+    font-size: 30px;
+}
+
+.mail-id,
+.phn-number {
+    font-weight: bold;
+}
+
+.link-boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    width: calc(100% / 3 - 10px);
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+.instagram,
+.facebook,
+.linkedin,
+.twitter {
+    font-size: 25px;
+    color: #DC2626;
+    border: 1px solid #fff;
+    padding: 10%;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.linkedin {
+    color: #0077B5;
+}
+
+.facebook {
+    color: #1DA1F2;
+}
+
+.twitter {
+    color: #1877F2;
+}
+
+.playstore,
+.apple {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.column-2 {
+    width: 20%;
+}
+
+.app-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.medias {
+    display: flex;
+    gap: 10px;
+}
+
+.payments {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.policy-list {
+    display: flex;
+    gap: 15px;
+}
+
+.policy-link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1280px) {
+    .footer-container {
+        padding: 41px 75px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .newsletter-left {
+        width: 40%;
+    }
+
+    .newsletter-right {
+        width: 50%;
+    }
+
+    .link-boxes {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .footer-container {
+        padding: 41px 50px;
+    }
+
+    .footer-middle {
+        flex-wrap: wrap;
+    }
+
+    .footer-middle-left,
+    .column-2 {
+        width: 35%;
+    }
+
+    .copyright {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-middle {
+        flex-direction: column;
+        gap: 25px;
+
+    }
+
+    .footer-middle-left,
+    .column-2,
+    .link-boxes {
+        width: 100%;
+    }
+
+    .subscribe {
+        width: 84%;
+    }
+
+    form button {
+        font-size: 10px;
+    }
+
+    .copy {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .letter-h3 {
+        font-size: 19px;
+    }
+
+    form button {
+        width: 25%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .copyright,
+    .policy {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .newsletter,
+    .footer-bottom {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .newsletter-left,
+    .newsletter-right {
+        width: 100%;
+    }
+}
